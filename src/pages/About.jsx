@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <>
-    <CommonTopBanner title={"About"}/>
+    <CommonTopBanner title={'About'}/>
       <div className='bg-gray-100 py-10'>
         <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-12 gap-y-5 sm:gap-x-4'>
           {/* side bar button */}
