@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import Slider from "../Component/Slider";
 
 const images = [
@@ -89,8 +88,8 @@ const Home = () => {
 
       {/* Missiion */}
 
-      <div className="w-full h-full bg-[url('./images/home/bg-building.jpg')] bg-cover bg-no-repeat py-20">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 px-2 sm:px-0 2xl:px-56">
+      <div className="w-full h-full bg-[url('./bg-building.jpg')] bg-cover bg-no-repeat py-20">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 px-2 sm:px-0 2xl:px-56">
           <div>123</div>
 
           <div className="text-white opacity-90 bg-blue-800/70 p-10">
