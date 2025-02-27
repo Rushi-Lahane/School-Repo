@@ -17,7 +17,7 @@ const ContactUs = () => {
           </p>
         </div>
         {/* map and form */}
-        <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 sm:gap-20 h-screen mt-10 rounded-md'>
+        <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-y-10 sm:gap-20 h-screen mt-10 rounded-md'>
 
           {/*  School map */}
           <div className='h-50'>
