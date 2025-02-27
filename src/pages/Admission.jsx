@@ -4,7 +4,7 @@ import CommonTopBanner from '../Component/CommonTopBanner'
 const Admission = () => {
   return (
     <>
-      <CommonTopBanner title='Admission' />
+      <CommonTopBanner title={'Admission'}/>
       {/* Vidoe */}
       <div className="bg-white flex justify-center flex-col items-center p-12">
         <h1 className="text-3xl font-bold w-full flex justify-center text-blue-900 ">School Virtual Tour</h1>

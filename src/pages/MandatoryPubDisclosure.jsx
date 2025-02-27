@@ -93,7 +93,7 @@ const MandatoryPubDisclosure = () => {
 
   return (
     <>
-      <CommonTopBanner title='Mandatory Public Disclosure' />
+      <CommonTopBanner title={'Mandatory Public Disclosure'} />
       <div className='bg-gray-100 sm:p- p-3'>
 
 

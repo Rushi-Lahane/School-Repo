@@ -111,7 +111,7 @@ const Infrastructure = () => {
 
   return (
     <>
-      <CommonTopBanner title='Infrastructure' />
+      <CommonTopBanner title={'Infrastructure'} />
       <div className=' bg-gray-100 sm:p-20 p-5'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 gap-y-15'>
 

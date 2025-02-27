@@ -150,7 +150,7 @@ const Gallery = () => {
   ]
   return (
     <>
-      <CommonTopBanner title='Event Gallery' />
+      <CommonTopBanner title={'Event Gallery'} />
       <div className='bg-gray-300 py-10'>
         <div className='grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 w-11/12 gap-7 mx-auto '>
           {

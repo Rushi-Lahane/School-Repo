@@ -4,7 +4,7 @@ import CommonTopBanner from '../Component/CommonTopBanner'
 const ContactUs = () => {
   return (
     <>
-      <CommonTopBanner title="ContactUs" />
+      <CommonTopBanner title={"ContactUs"} />
 
       <div className='bg-gray-100 grid-cols-1 items-center justify-center space-y-5 py-10'>
         {/* School address */}

@@ -16,7 +16,7 @@ const Academic = () => {
 
   return (
     <>
-      <CommonTopBanner title='Academic' />
+      <CommonTopBanner title={'Academic'}/>
       <div className=' bg-gray-100'>
         <div className='container mx-auto sm:p-10 p-5 grid  gap-7'>
           {/* buttons */}
