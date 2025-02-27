@@ -88,7 +88,7 @@ const Home = () => {
 
       {/* Missiion */}
 
-      <div className="w-full h-full bg-[url('./images/home/bg-building.jpg')] bg-cover bg-no-repeat py-20">
+      <div className="bg-[url('/images/home/bg-building.jpg')] bg-cover bg-no-repeat py-20">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 px-2 sm:px-0 2xl:px-56">
           <div></div>
 
