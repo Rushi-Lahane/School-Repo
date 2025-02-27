@@ -21,15 +21,15 @@ function App() {
       <Header/>
 
       <Routes>
-        <Route path='' element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='admission' element={<Admission />} />
-        <Route path='academic' element={<Academic/>}/>
-        <Route path='mandatory' element={<Mandatory/>} />
-        <Route path='achievement' element={<Achievement/>}/>
-        <Route path='infrastructure' element={<Infrastructure/>} />
-        <Route path='contact-Us' element={<ContactUs/>}/>
-        <Route path='gallery' element={<Gallery/>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/admission' element={<Admission />} />
+        <Route path='/academic' element={<Academic/>}/>
+        <Route path='/mandatory' element={<Mandatory/>} />
+        <Route path='/achievement' element={<Achievement/>}/>
+        <Route path='/infrastructure' element={<Infrastructure/>} />
+        <Route path='/contact-Us' element={<ContactUs/>}/>
+        <Route path='/gallery' element={<Gallery/>} />
       </Routes>
 
       {/* Footer */}
