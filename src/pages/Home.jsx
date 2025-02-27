@@ -54,24 +54,24 @@ const Home = () => {
 
     <Slider/>
 
-      <div className="w-full bg-white flex sm:pb-20 sm:flex-row flex-col">
+      <div className="grid grid-cols-1 W-[100%] sm:grid-cols-2 gap-5 px-2 sm:px-0 2xl:px-56 my-10">
          
-        <div className="flex flex-col sm:flex-row w-[100%] sm:gap-x-10 items-center sm:w-[50%]">
-          <div className="sm:ml-10 sm:mt-20 flex ">
-            <img src="./images/home/home-welcome-1.jpg" alt="boy with indian flag" className="sm:mt-10" />
+        <div className="grid grid-cols-2 sm:grid-cols-2 sm:gap-10 gap-5 sm:p-6">
+          <div >
+            <img src="./images/home/home-welcome-1.jpg" alt="boy with indian flag" className="mt-10" />
           </div>
-          <div className="my-5">
+          <div>
             <img src="./images/home/home-welcome-2.jpg" alt="boy with book" />
           </div>
         </div>
 
-        <div className="w-full flex flex-wrap sm:mt-25 flex-col items-center sm:w-[50%] ">
-          <div className="flex items-center flex-col justify-center">
+        <div className="justify-center flex flex-col gap-4 text-center">
+          <div className="text-center">
             <h1 className="text-3xl font-serif font-bold text-red-700">Welcome to</h1>
-            <h1 className="sm:text-3xl text-2xl font-bold text-blue-800"> Bhondawe Patil Public School </h1>
+            <h1 className="sm:text-3xl text-2xl font-bold text-blue-800 text-center"> Bhondawe Patil Public School </h1>
           </div>
           <div>
-            <p className="flex sm:w-145 text-gray-500 m-2 text-[18px] text-center">
+            <p className=" text-gray-500 text-center">
               Welcome to the abode of intellect where the purpose of education is to equip the child with the most excellent technological proficiency; to empower him with the skills in order to realize his God gifted potential; to creole the light climate so that the child may develop fully as a complete human being at BHONDAWE PATIL PUBLIC SCHOOL, one's intellect is I transformed into an illuminated reflection of knowledge and broad outlook towards life.
             </p>
           </div>
@@ -80,9 +80,9 @@ const Home = () => {
 
       {/* Vidoe */}
       <div className="bg-gray-200 flex justify-center flex-col items-center p-12">
-        <h1 className="text-3xl font-bold w-full flex justify-center text-blue-900 ">School Virtual Tour</h1>
+        <h1 className="text-3xl font-bold w-full flex justify-center text-center text-blue-900 ">School Virtual Tour</h1>
         <div className="m-10 mt-5 mb-3">
-          <iframe className='sm:w-250 sm:h-150' src="https://www.youtube.com/embed/cuIFuOVG9eA?si=PXRLfhnYuJTopxHe" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className='sm:w-155 sm:h-150 md:w-215' src="https://www.youtube.com/embed/cuIFuOVG9eA?si=PXRLfhnYuJTopxHe" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
 
