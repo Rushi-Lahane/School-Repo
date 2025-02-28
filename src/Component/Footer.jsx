@@ -18,15 +18,15 @@ const Footer = () => {
       <div>
         <h2 className='text-[24px] text-red-700 font-semibold mb-4 underline underline-offset-8 decoration-gray-300'>Quick Links</h2>
         <ul className='item-center  flex flex-col gap-1.5 text-blue-800'>
-          <Link to='/' className='hover:font-bold hover:text-red-500 hover:text-xl '><li>Home</li></Link>
-          <Link to='/about' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>About</li></Link>
-          <Link to='/admission' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Admission</li></Link>
-          <Link to='/academic' className='hover:font-bold hover:text-red-500 hover:text-xl  ' ><li>Academic</li></Link>
-          <Link to='/mandatory' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Mandatory Public Disclosure</li></Link>
-          <Link to='/achievement' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Achievement</li></Link>
-          <Link to='/infrastructure' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Infrastructure</li></Link>
-          <Link to='/contact-us' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Contact Us</li></Link>
-          <Link to='/gallery' className='hover:font-bold hover:text-red-500 hover:text-xl  '><li>Gallery</li></Link>
+          <Link to='/' className='hover:font-bold hover:text-red-500 hover:text-md'><li>Home</li></Link>
+          <Link to='/about' className='hover:font-bold hover:text-red-500 hover:text-md '><li>About</li></Link>
+          <Link to='/admission' className='hover:font-bold hover:text-red-500 hover:text-md '><li>Admission</li></Link>
+          <Link to='/academic' className='hover:font-bold hover:text-red-500 hover:text-md' ><li>Academic</li></Link>
+          <Link to='/mandatory' className='hover:font-bold hover:text-red-500 hover:text-md '><li>Mandatory Public Disclosure</li></Link>
+          <Link to='/achievement' className='hover:font-bold hover:text-red-500 hover:text-md  '><li>Achievement</li></Link>
+          <Link to='/infrastructure' className='hover:font-bold hover:text-red-500 hover:text-md  '><li>Infrastructure</li></Link>
+          <Link to='/contact-us' className='hover:font-bold hover:text-red-500 hover:text-md  '><li>Contact Us</li></Link>
+          <Link to='/gallery' className='hover:font-bold hover:text-red-500 hover:text-md  '><li>Gallery</li></Link>
         </ul>
       </div>
 

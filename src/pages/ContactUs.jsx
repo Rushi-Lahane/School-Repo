@@ -28,11 +28,11 @@ const ContactUs = () => {
           <div className='bg-blue-900 rounded-md shadow-md p-12'>
             <span className='text-3xl text-white font-semibold'>Send Us a Message</span>
             <form className='flex flex-col gap-5'>
-              <input type="text" placeholder='Name' className='text-white border-b-2 p-2 text-xl' />
-              <input type="number" placeholder='Mobail' className='text-white border-b-2 p-2 text-xl' />
-              <input type="email" placeholder='Email' className='text-white border-b-2 p-2 text-xl' />
-              <input type="text" placeholder='Subject' className='text-white border-b-2 p-2 text-xl' />
-              <input type="text" placeholder='Message' className='text-white border-b-2 p-2 text-xl' />
+              <input type="text" placeholder='Name' className='text-white border-b-2 p-2 text-xl outline-none' />
+              <input type="number" placeholder='Mobail' className='text-white border-b-2 p-2 text-xl outline-none' />
+              <input type="email" placeholder='Email' className='text-white border-b-2 p-2 text-xl outline-none' />
+              <input type="text" placeholder='Subject' className='text-white border-b-2 p-2 text-xl outline-none' />
+              <input type="text" placeholder='Message' className='text-white border-b-2 p-2 text-xl outline-none' />
 
               <button type='submit' className='text-white bg-red-500 p-1 w-20 rounded-md text-lg'>Send</button>
             </form>

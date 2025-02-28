@@ -9,7 +9,7 @@ const Header = () => {
         <div>
             {/* top bar */}
             <div className='bg-red-700 py-1'>
-                <div className='mx-auto flex justify-between text-white text-sm container'>
+                <div className='mx-auto w-11/12 flex justify-between text-white text-sm'>
                     <p>rushilahane@gmail.com</p>
                     <p>Facebook</p>
                 </div>
@@ -27,16 +27,16 @@ const Header = () => {
 
             {/* Nav bar */}
             <nav className=' bg-blue-900 flex sm:py-2' >
-                <ul className={`sm:flex sm:flex-row sm:gap-x-8 divide-white sm:divide-none divide-y-2 item-center mx-auto p-2 w-11/12 text-white ${open ? "block " : "hidden"}`}>
-                    <Link to='/' className='px-2 text-xl text-white text-[17px] font-semibold  '> <li onClick={()=>setOpen(!open)}>Home</li> </Link>
-                    <Link to='/about' className='px-2 text-xl text-white text-[17px] font-semibold '> <li onClick={()=>setOpen(!open)} >About Us</li> </Link>
-                    <Link to='/admission' className='px-2 text-xl text-white text-[17px] font-semibold '> <li onClick={()=>setOpen(!open)} >Admission</li></Link>
-                    <Link to='/mandatory' className='px-2 text-xl text-white text-[17px] font-semibold '> <li onClick={()=>setOpen(!open)} >Mandatory Public Disclosure</li></Link>
-                    <Link to='/academic' className='px-2 text-xl text-white text-[17px] font-semibold ' > <li onClick={()=>setOpen(!open)}>Academic</li></Link>
-                    <Link to='/achievement' className='px-2 text-xl text-white text-[17px] font-semibold '> <li onClick={()=>setOpen(!open)}>Achievement</li></Link>
-                    <Link to='/infrastructure' className='px-2 text-xl text-white text-[17px] font-semibold '> <li onClick={()=>setOpen(!open)}>Infrastructure</li></Link>
-                    <Link to='/gallery' className='px-2 text-xl text-white text-[17px] font-semibold '> <li  onClick={()=>setOpen(!open)}> Gallery</li></Link>
-                    <Link to='/contact-us' className='px-2 text-xl text-white text-[17px] font-semibold '> <li  onClick={()=>setOpen(!open)}> Contact Us</li></Link>
+                <ul className={`sm:flex sm:flex-row sm:gap-x-5 mx-auto w-11/12 text-white ${open ? "block " : "hidden"}`}>
+                    <Link to='/' className='px-1 text-md text-white text-[15px] font-semibold  '> <li onClick={()=>setOpen(!open)}>Home</li> </Link>
+                    <Link to='/about' className='px-1 text-md text-white text-[15px] font-semibold '> <li onClick={()=>setOpen(!open)} >About Us</li> </Link>
+                    <Link to='/admission' className='px-1 text-md text-white text-[15px] font-semibold '> <li onClick={()=>setOpen(!open)} >Admission</li></Link>
+                    <Link to='/mandatory' className='px-1 text-md text-white text-[15px] font-semibold '> <li onClick={()=>setOpen(!open)} >Mandatory Public Disclosure</li></Link>
+                    <Link to='/academic' className='px-1 text-md text-white text-[15px] font-semibold ' > <li onClick={()=>setOpen(!open)}>Academic</li></Link>
+                    <Link to='/achievement' className='px-1 text-md text-white text-[15px] font-semibold '> <li onClick={()=>setOpen(!open)}>Achievement</li></Link>
+                    <Link to='/infrastructure' className='px-1 text-md text-white text-[15px] font-semibold '> <li onClick={()=>setOpen(!open)}>Infrastructure</li></Link>
+                    <Link to='/gallery' className='px-1 text-md text-white text-[15px] font-semibold '> <li  onClick={()=>setOpen(!open)}> Gallery</li></Link>
+                    <Link to='/contact-us' className='px-1 text-md text-white text-[15px] font-semibold '> <li  onClick={()=>setOpen(!open)}> Contact Us</li></Link>
                 </ul>
 
             </nav>
